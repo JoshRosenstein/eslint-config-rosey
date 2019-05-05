@@ -51,6 +51,9 @@ module.exports = {
         ...require('./tsRecommended').rules,
         '@typescript-eslint/explicit-member-accessibility': 0, //Throwing in React Component
         '@typescript-eslint/explicit-function-return-type': 0, //Throwing in React Component
+        '@typescript-eslint/no-empty-interface': 0, // Allow
+        '@typescript-eslint/prefer-interface': 0, // Allow
+        'no-unused-vars': 0, // Handled Below
         ...require('eslint-config-prettier/@typescript-eslint').rules,
         '@typescript-eslint/no-unused-vars': [
           'error',
@@ -73,7 +76,7 @@ module.exports = {
   rules: {
     'sort-imports': ['error', { ignoreCase: true }], // http://eslint.org/docs/rules/sort-imports
     // General
-    'comma-dangle': [1, 'always-multiline'], // allow or disallow trailing commas
+    'comma-dangle': 0, // prettier[1, 'always-multiline'], // allow or disallow trailing commas
     'no-cond-assign': 1, // disallow assignment in conditional expressions
     'no-console': 0, // disallow use of console (off by default in the node environment)
     'no-const-assign': 2, // disallow assignment to const-declared variables
