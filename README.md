@@ -44,6 +44,6 @@ Or
 
 
 [Product Info]:https://img.shields.io/badge/ESLint-Config-blue.svg
-[Build Status]:https://www.travis-ci.org/j/eslint-config-rosey.svg?branch=master
+[Build Status]:https://travis-ci.org/JoshRosenstein/eslint-config-rosey.svg?branch=master
 [Publish Version]:https://img.shields.io/npm/v/eslint-config-rosey.svg?registry_uri=https%3A%2F%2Fregistry.npmjs.com
 
