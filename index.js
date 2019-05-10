@@ -12,7 +12,14 @@ module.exports = {
     ecmaFeatures: { jsx: true },
   },
 
-  plugins: ['eslint-comments', 'react', 'react-hooks', 'jest', 'prettier'],
+  plugins: [
+    'eslint-comments',
+    'react',
+    'react-hooks',
+    'jest',
+    'pretty-imports',
+    'prettier',
+  ],
 
   settings: {
     react: {
@@ -74,7 +81,8 @@ module.exports = {
   ],
 
   rules: {
-    'sort-imports': ['error', { ignoreCase: true }], // http://eslint.org/docs/rules/sort-imports
+    'pretty-imports/sorted': 2,
+    'sort-imports': 0, // https://github.com/dmtrKovalenko/eslint-plugin-pretty-imports ['error', { ignoreCase: true }], // http://eslint.org/docs/rules/sort-imports
     // General
     'comma-dangle': 0, // prettier[1, 'always-multiline'], // allow or disallow trailing commas
     'no-cond-assign': 1, // disallow assignment in conditional expressions
