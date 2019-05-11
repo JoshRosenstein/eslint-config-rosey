@@ -77,6 +77,9 @@ module.exports = {
         jest: true,
         'jest/globals': true,
       },
+      rules: {
+        'no-shadow': 0,
+      },
     },
   ],
 
