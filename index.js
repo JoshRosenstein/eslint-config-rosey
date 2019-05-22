@@ -66,6 +66,7 @@ module.exports = {
           'error',
           { argsIgnorePattern: '^_' },
         ],
+        '@typescript-eslint/no-use-before-define': 0,
       },
     },
     {
