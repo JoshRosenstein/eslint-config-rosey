@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rosey",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "My ESLint Config",
   "main": "index.js",
   "repository": "https://github.com/JoshRosenstein/eslint-config-rosey.git",
