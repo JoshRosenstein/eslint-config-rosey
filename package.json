@@ -31,9 +31,9 @@
     "eslint": ">=5"
   },
   "devDependencies": {
-    "@types/react": "16.8.16",
+    "@types/react": "16.14.62",
     "eslint": "5.16.0",
-    "react": "16.8.6",
+    "react": "16.14.0",
     "typescript": "3.4.5"
   }
 }
