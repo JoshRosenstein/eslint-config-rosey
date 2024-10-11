@@ -24,16 +24,16 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-pretty-imports": "^1.0.2",
     "eslint-plugin-react": "^7.13.0",
-    "eslint-plugin-react-hooks": "^1.6.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
     "prettier": "^1.17.1"
   },
   "peerDependencies": {
     "eslint": ">=5"
   },
   "devDependencies": {
-    "@types/react": "16.8.16",
+    "@types/react": "18.3.11",
     "eslint": "5.16.0",
-    "react": "16.8.6",
+    "react": "18.3.1",
     "typescript": "3.4.5"
   }
 }
