@@ -15,8 +15,8 @@
     ".prettierrc.js"
   ],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.9.0",
-    "@typescript-eslint/parser": "^1.9.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
     "babel-eslint": "^10.0.1",
     "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-eslint-comments": "^3.1.1",
